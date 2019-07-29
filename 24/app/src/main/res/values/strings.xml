@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">24点 PK</string>
+    <string name="Host">http://192.168.1.109:8899/For24/</string>
+    <string name="IP">192.168.1.109</string>
+    <string name="URL_login">http://192.168.1.109:8899/For24/LoginServlet</string>
+    <string name="URL_register">http://192.168.1.109:8899/For24/RegisterServlet</string>
+    <!--<string name="URL_GetQ">http://192.168.1.109:8899/For24/GetQServlet</string>-->
+    <string name="URL_Getuser">http://192.168.1.109:8899/For24/GetuserServlet</string>
+    <string name="URL_rank">http://192.168.1.109:8899/For24/RankServlet</string>
+</resources>

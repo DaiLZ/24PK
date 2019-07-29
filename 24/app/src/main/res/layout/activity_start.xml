@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".startActivity">
+
+    <TextView
+        android:id="@+id/btn_pk"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp"
+        android:background="@drawable/buttonpk"
+        android:gravity="center"
+        android:text="PK"
+        android:textColor="@color/btn_text"
+        android:textStyle="bold"
+        android:textSize="80sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_pk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDarker"
+        android:text="Click this ↑" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_ranked"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:drawableTop="@mipmap/rank"
+            android:gravity="center"
+            android:text="排行榜"
+            android:textColor="@color/btn_text" />
+
+        <Button
+            android:id="@+id/btn_my"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:drawableTop="@mipmap/my"
+            android:gravity="center"
+            android:textColor="@color/btn_text"
+            android:text="我" />
+
+    </LinearLayout>
+
+</RelativeLayout>
